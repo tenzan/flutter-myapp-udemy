@@ -5,7 +5,10 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(title: Text('HOME SCREEN')),
-      body: Center(child: Text('Home screen, inside home_screent.dart')),
+      body: Center(
+        child: Image.asset(
+            'assets/flowers.jpg'),
+      ),
     );
   }
 }
